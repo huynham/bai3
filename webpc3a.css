@@ -1,0 +1,28 @@
+body {
+margin:0px;
+padding:0px;
+
+}
+
+#menu {width:100%;height:50px;}
+.logo {margin:20px 0 0 30px;color:red;}
+
+#phangiua {width:100%;height:auto;}
+.chongiua {margin:100px 0 200px 30px;}
+.chongiua li {padding: 10px 0 10px 0;list-style:none;}
+.chongiua li a { padding-left:20px; text-decoration:none;}
+
+#phancuoi {width:100%;height:250px;background-color:darkgray; position:relative;}
+
+.choncuoi1 {position:absolute;top:20px; left:30px;}
+.choncuoi1 li {list-style: none; padding:10px;}
+.choncuoi1 li a{text-decoration:none;}
+
+.choncuoi2 {position:absolute;top:20px; left:40%;}
+.choncuoi2 li {list-style: none; padding:10px;}
+.choncuoi2 li a{text-decoration:none;}
+
+.choncuoi3 {position:absolute;top:200px; left:30px;}
+.choncuoi3 li {list-style: none; padding:20px; display:inline; }
+.choncuoi3 li a{text-decoration:none;}
+

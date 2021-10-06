@@ -1,0 +1,287 @@
+body {width:100%;
+height:100%;
+margin:0px;
+padding:0px;
+}
+@media only screen and (min-width:1366px) and (max-width:2500px) {
+
+#phandau {width:100%;height:50px; position:relative;}
+.muiten {display:none;}
+.logo {color:red;padding: 0 0 0 20px;}
+.chonmenu {position:absolute;top:0px;right:50px;}
+.chonmenu li {display:inline;padding:0 10px 0 0; position: relative;}
+.chonmenu li a{text-decoration: none;}
+.anhmenu {position:absolute;top:10px; right:20px;}
+
+.menucon {display: none;width:200%;height:auto;position:absolute;top:100%;left:0px;
+    background-color: bisque; border-radius: 10px;z-index:2;}
+    .menucon li {padding-bottom:10px ;display:block; margin:5px 0 5px -30px; border-bottom:1px solid black;}
+    .chonmenu li:hover .menucon {display:block;position: absolute;}
+
+    #phangiua {width:70%;height:auto; margin:0 auto;}
+    .trencung {width:100%;height:50px; position: relative;}
+    .logotrencung {padding:0 10px 0 20px;float:left;}
+    .h3trencung {color:red;margin:10px 0 0 100px;}
+    .imgtrencung {position: absolute; top:0;right:10px;}
+
+    .baophangiua {width:100%;height:auto; position:relative;}
+
+    .phangiua1 {width:50%;height:500px; background-image: url("image@2x.png");
+    background-size:100% 100%;}
+    .h1phangiua1 {color:white;text-align:center;padding:15% 0 0 0;}
+    .hrphangiua1 {color:red;height:1px; width:10%;}
+    .pphangiua1 {color:white;text-align: center;padding:3% 0 0 0;}
+    .imgphangiua1 {padding:3% 0 0 48%;}
+
+    .phangiua1a {width:50%;height:500px;   position: absolute; top:0;right:0;}
+    .form1 {width:50%;height:auto;  margin:20% 0 0 20%;}
+    .input1 {margin:10px 0 10px 0;width:80%;height:30px; }
+    .input2 {margin:10px 0 50px 0;width:80%;height:30px;}
+    .button1 {width:50%;height:40px; background-color: red;color:white;}
+
+    .phangiua2 {width:100%;height:253px;border-top:1px solid blue; position: relative;
+        border-bottom:1px solid blue; margin:20px 0 20px 0;}
+    .phangiua2a {width:33%;height:253px; }
+    .imgphangiua2a {margin:40px 0 10px 0px;}
+    .h3phangiua2a {margin:10px 0 0 0px;}
+
+    .phangiua2b {width:34%;height:253px; position: absolute; top:0;left:33%;  }
+    .pphangiua2b {color:black; margin:40px 0 0 10px;}
+
+    .phangiua2c {width:33%;height:253px; position: absolute;top:0;right:0;}
+    .pphangiua2c {margin: 40px 0 50px 10px;}
+    .imgphangiua2c {margin:0 20px 0 10px;float:left;}
+
+    .phangiua3 {width:100%;height:891px;  position: relative;}
+    .phangiua3a {width:100%;height:500px; background-image: url("voi.png");background-size:100% 100%;}
+    .phangiua3b {width:65%;height:391px;}
+    .pphangiua3b {margin:20px 20px 100px 0;}
+
+    .phangiua3c {width:35%;height:391px; position: absolute;bottom:0;right:0;}
+    .pphangiua3c {margin:20px 20px 100px 0;}
+
+    .phangiua4 {width:100%;height:50px;margin:0 0 10px 0;}
+    .ulphangiua4 {text-align: center;}
+    .ulphangiua4 li {display:inline;}
+    .li12 {border-bottom:2px solid peru;}
+
+    #phancuoi {width:100%;height:auto;  background-color: darkgray;}
+    .giuaphancuoi {width:70%;height:200px;margin:0 auto; position: relative;}
+    .phancuoi1 {width:53%;height:100px;  position: absolute;top:50px;left:0;}
+    .logocuoi {color:white;position:absolute;top:0px;left:0;}  
+    .ul1cuoi {position: absolute;top:0px;left:10%;}
+    .ul1cuoi li {list-style: none;color:white;}
+
+   
+    .ul2cuoi {position: absolute;top:0px;left:35%;}
+    .ul2cuoi li {list-style: none;color:white;}
+    
+    .ul3cuoi {position: absolute;top:0px;left:55%;}
+    .ul3cuoi li {list-style: none;color:white;}
+
+    .phancuoi2 {width:34%;height:100px; position: absolute;top:50px;left:33%;}
+    .inputcuoi {position: absolute;top:0;right:0;background-color: darkgray;border:1px solid white;
+    height:30px;}
+    .imgcuoi {position: absolute;top:10px;right:20px;}
+    .pcuoi {position: absolute;top:40px;right:0;color:white;}
+
+    .phancuoi3 {width:23%;height:100px; position:absolute;top:50px;right:0;}
+    .mxh {position: absolute;top:0;right:0;}
+    .mxh li {list-style: none;color:white;padding:0 0 0 20px;display:inline;}
+
+  }
+
+  @media only screen and (min-width:1024px) and (max-width:1365px) {
+
+    #phandau {width:100%;height:50px; position:relative;}
+    .muiten {display:none;}
+.logo {color:red;padding: 0 0 0 20px;}
+.chonmenu {position:absolute;top:0px;right:50px;}
+.chonmenu li {display:inline;padding:0 10px 0 0; position: relative;}
+.chonmenu li a{text-decoration: none;}
+.anhmenu {position:absolute;top:10px; right:20px;}
+
+.menucon {display: none;width:200%;height:auto;position:absolute;top:100%;left:0px;
+    background-color: bisque; border-radius: 10px;z-index:2;}
+    .menucon li {padding-bottom:10px ;display:block; margin:5px 0 5px -30px; border-bottom:1px solid black;}
+    .chonmenu li:hover .menucon {display:block;position: absolute;}
+
+
+    #phangiua {width:70%;height:auto; margin:0 auto;}
+    .trencung {width:100%;height:50px; position: relative;}
+    .logotrencung {padding:0 10px 0 20px;float:left;}
+    .h3trencung {color:red;margin:10px 0 0 100px;}
+    .imgtrencung {position: absolute; top:0;right:10px;}
+
+    .baophangiua {width:100%;height:auto; position:relative;}
+
+    .phangiua1 {width:100%;height:500px; background-image: url("image@2x.png");
+    background-size:100% 100%;}
+    .h1phangiua1 {color:white;text-align:center;padding:15% 0 0 0;}
+    .hrphangiua1 {color:red;height:1px; width:10%;}
+    .pphangiua1 {color:white;text-align: center;padding:3% 0 0 0;}
+    .imgphangiua1 {padding:3% 0 0 48%;}
+
+    .phangiua1a {width:100%;height:500px;   }
+    .form1 {width:50%;height:auto;  margin:20% 0 0 10%;}
+    .input1 {margin:10px 0 10px 0;width:90%;height:30px; }
+    .input2 {margin:10px 0 50px 0;width:90%;height:30px;}
+    .button1 {width:50%;height:40px; background-color: red;color:white;}
+
+    .phangiua2 {width:100%;height:403px;border-top:1px solid blue; position: relative;
+        border-bottom:1px solid blue; margin:20px 0 20px 0;}
+    .phangiua2a {width:100%;height:150px; }
+    .imgphangiua2a {margin:40px 0 10px 0px;}
+         .antable {display:none;}
+    .h3phangiua2a {margin:10px 0 0 0px;}
+    
+
+    .phangiua2b { width:50%;height:253px; position: absolute; top:150px;left:0;  }
+    .pphangiua2b {color:black; margin:40px 0 0 10px;}
+
+    .phangiua2c {width:50%;height:253px; position: absolute;top:150px;right:0;}
+    .pphangiua2c {margin: 40px 0 50px 10px;}
+    .imgphangiua2c {margin:0 20px 0 10px;float:left;}
+
+    .phangiua3 {width:100%;height:891px;  position: relative;}
+    .phangiua3a {width:100%;height:500px; background-image: url("voi.png");background-size:100% 100%;}
+    .phangiua3b {width:65%;height:391px;}
+    .pphangiua3b {margin:20px 20px 100px 0;}
+
+    .phangiua3c {width:35%;height:391px; position: absolute;bottom:0;right:0;}
+    .pphangiua3c {margin:20px 20px 100px 0;}
+
+    .phangiua4 {width:100%;height:50px;margin:0 0 10px 0;}
+    .ulphangiua4 {text-align: center;}
+    .ulphangiua4 li {display:inline;}
+    .li12 {border-bottom:2px solid peru;}
+
+
+    #phancuoi {width:100%;height:auto;  background-color: darkgray;}
+    .giuaphancuoi {width:70%;height:300px;margin:0 auto; position: relative;}
+    .phancuoi1 {width:100%;height:100px;  position: absolute;top:50px;left:0;}
+    .logocuoi {color:white;position:absolute;top:0px;left:0;}  
+    .ul1cuoi {position: absolute;top:0px;left:50%;}
+    .ul1cuoi li {list-style: none;color:white;}
+
+   
+    .ul2cuoi {position: absolute;top:0px;left:68%;}
+    .ul2cuoi li {list-style: none;color:white;}
+    
+    .ul3cuoi {position: absolute;top:0px;left:85%;}
+    .ul3cuoi li {list-style: none;color:white;}
+
+    .phancuoi2 {width:50%;height:100px; position: absolute;top:150px;left:0;}
+    .inputcuoi {position: absolute;top:0;left:0;background-color: darkgray;border:1px solid white;
+    height:30px;}
+    .imgcuoi {position: absolute;top:10px;left:40%;}
+    .pcuoi {position: absolute;top:20px;left:0;color:white;}
+
+    .phancuoi3 {width:50%;height:100px; position:absolute;top:150px;right:0;}
+    .mxh {position: absolute;bottom:30px;right:0;}
+    .mxh li {list-style: none;color:white;padding:0 0 0 20px;display:inline;}
+
+
+  }
+
+  @media only screen and (min-width:320px) and (max-width:1023px) {
+
+    #phandau {width:100%;height:50px;position:relative;}
+     .muiten {position: absolute;top:10px;left:10px;}
+
+    .logo {color:red;text-align:center;}
+    .chonmenu {display:none;position:absolute;top:0px;right:50px;}
+    .chonmenu li {display:inline;padding:0 10px 0 0; position: relative;}
+    .chonmenu li a{text-decoration: none;}
+    .anhmenu {position:absolute;top:10px; right:20px;}
+    
+    .menucon {display: none;width:200%;height:auto;position:absolute;top:100%;left:0px;
+        background-color: bisque; border-radius: 10px;z-index:2;}
+        .menucon li {padding-bottom:10px ;display:block; margin:5px 0 5px -30px; border-bottom:1px solid black;}
+        .chonmenu li:hover .menucon {display:block;position: absolute;}
+    
+    
+        #phangiua {width:70%;height:auto;margin:0 auto;}
+    .trencung {width:100%;height:50px;position: relative;}
+    .logotrencung {padding:0 10px 0 20px;float:left;}
+    .h3trencung {display:none;color:red;margin:10px 0 0 100px;}
+    .imgtrencung {position: absolute; top:0;right:10px;}
+
+    .baophangiua {width:100%;height:auto;position:relative;}
+
+    .phangiua1 {width:100%;height:400px;background-image: url("image@2x.png");
+    background-size:100% 100%;}
+    .h1phangiua1 {color:white;text-align:center;padding:15% 0 0 0;}
+    .hrphangiua1 {background-color:red;height:1px; width:10%;}
+    .pphangiua1 {color:white;text-align: center;padding:3% 0 0 0;}
+    .imgphangiua1 {padding:3% 0 0 43%;}
+
+    .phangiua1a {width:100%;height:300px;  }
+    .form1 {width:70%;height:auto;margin:20% 0 0 10%;}
+    .input1 {margin:10px 0 10px 0;width:90%;height:30px; }
+    .input2 {margin:10px 0 50px 0;width:90%;height:30px;}
+    .button1 {width:50%;height:40px; background-color: red;color:white;}
+
+    .phangiua2 {width:100%;height:auto;border-top:1px solid blue; position: relative;
+        border-bottom:1px solid blue; margin:20px 0 20px 0;}
+    .phangiua2a {width:100%;height:150px;}
+    .imgphangiua2a {margin:40px 0 10px 0px;}
+         .antable {display:none;}
+    .h3phangiua2a {margin:10px 0 0 0px;}
+    
+
+    .phangiua2b { width:100%;height:auto;}
+    .pphangiua2b {color:black; margin:40px 0 0 10px;}
+
+    .phangiua2c {width:100%;height:auto;}
+    .pphangiua2c {margin: 40px 0 50px 10px;}
+    .imgphangiua2c {margin:0 20px 0 10px;float:left;}
+
+    .phangiua3 {width:100%;height:auto; position: relative;}
+    .phangiua3a {width:100%;height:300px; background-image: url("voi.png");background-size:100% 100%;}
+    .phangiua3b {width:100%;height:auto;}
+    .pphangiua3b {margin:20px 20px 100px 0;}
+
+    .phangiua3c {width:100%;height:auto; }
+    .pphangiua3c {margin:20px 20px 100px 0;}
+
+    .phangiua4 {width:100%;height:50px;margin:0 0 10px 0;}
+    .ulphangiua4 {text-align: center;}
+    .ulphangiua4 li {display:inline;}
+    .li12 {border-bottom:2px solid peru;}
+
+
+
+
+
+
+        #phancuoi {display:none;width:100%;height:auto;  background-color: darkgray;}
+        .giuaphancuoi {width:70%;height:300px;margin:0 auto; position: relative;}
+        .phancuoi1 {width:100%;height:100px;  position: absolute;top:50px;left:0;}
+        .logocuoi {color:white;position:absolute;top:0px;left:0;}  
+        .ul1cuoi {position: absolute;top:0px;left:50%;}
+        .ul1cuoi li {list-style: none;color:white;}
+    
+       
+        .ul2cuoi {position: absolute;top:0px;left:68%;}
+        .ul2cuoi li {list-style: none;color:white;}
+        
+        .ul3cuoi {position: absolute;top:0px;left:85%;}
+        .ul3cuoi li {list-style: none;color:white;}
+    
+        .phancuoi2 {width:50%;height:100px; position: absolute;top:150px;left:0;}
+        .inputcuoi {position: absolute;top:0;left:0;background-color: darkgray;border:1px solid white;
+        height:30px;}
+        .imgcuoi {position: absolute;top:10px;left:40%;}
+        .pcuoi {position: absolute;top:20px;left:0;color:white;}
+    
+        .phancuoi3 {width:50%;height:100px; position:absolute;top:150px;right:0;}
+        .mxh {position: absolute;bottom:30px;right:0;}
+        .mxh li {list-style: none;color:white;padding:0 0 0 20px;display:inline;}
+
+
+
+
+
+  }
+
